@@ -8,7 +8,7 @@
 
 ## 前置要求
 
-- ✅ 已读完理论 07.1（整合全景）、07.2（**JDK 26 版本兼容性，必读！**）
+- ✅ 已读完理论 07.1（整合全景）
 - ✅ 已掌握：Spring（05）、SpringMVC（06）、MyBatis（04）
 - ✅ 环境：JDK 26、Maven、MySQL 8+、IDEA + Tomcat 10.1
 
@@ -737,4 +737,4 @@ public class UserController {
 
 ---
 
-*上一节理论：[07.2 JDK 26 版本兼容性](../theory/07.2-jdk26-compatibility.md) | 下一章：[08-Spring Boot](../../08-springboot/theory/)*
+*上一节理论：[07.1 SSM 整合全景](../theory/07.1-ssm-integration-overview.md) | 下一章：[08-Spring Boot](../../08-springboot/theory/)*
