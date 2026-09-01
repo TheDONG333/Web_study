@@ -122,7 +122,7 @@ INSERT INTO users (username, password, email, phone) VALUES
             <dataSource type="POOLED">
                 <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
                 <property name="url"
-                    value="jdbc:mysql://localhost:3306/agent_learn?useSSL=false&amp;serverTimezone=Asia/Shanghai"/>
+                    value="jdbc:mysql://localhost:3306/agent_learn?useSSL=false&serverTimezone=Asia/Shanghai"/>
                 <property name="username" value="root"/>
                 <property name="password" value="123456"/>
             </dataSource>
@@ -362,24 +362,24 @@ public class Main {
 
 ## 验证标准
 
-- [ ] main 方法直接运行，7 个功能全部输出正确结果
+- [x] main 方法直接运行，7 个功能全部输出正确结果
 - [ ] 控制台能看到 SQL 日志（Preparing + Parameters）
-- [ ] 数据库中新插入的数据确实存在（去 MySQL 里查一下）
+- [x] 数据库中新插入的数据确实存在（去 MySQL 里查一下）
 - [ ] 动态 SQL：只传 username 时 SQL 是 `WHERE username = ?`
-- [ ] 批量插入后数据库多了 2 条 batch 开头的记录
+- [x] 批量插入后数据库多了 2 条 batch 开头的记录
 - [ ] 忘写 `session.commit()` 时会怎样？试试看数据是否入库（理解事务！）
 
 ---
 
 ## 常见报错排查
 
-| 报错 | 原因 | 解决 |
-|------|------|------|
-| `Could not find resource mybatis-config.xml` | 配置文件不在 resources 下 | 检查路径，放 `src/main/resources` |
-| `Invalid bound statement (not found)` | mapper.xml 没注册，或 namespace/id 写错 | 检查 `<mappers>` 和 namespace |
-| `Unknown column 'user_name'` | 列名对不上 | 用 AS 别名或开驼峰映射 |
-| `Communications link failure` | 连不上数据库 | 检查 URL/用户名/密码，MySQL 是否启动 |
-| 中文乱码 | URL 缺字符编码 | URL 加 `characterEncoding=utf8` |
+| 报错                                           | 原因                               | 解决                             |
+| -------------------------------------------- | -------------------------------- | ------------------------------ |
+| `Could not find resource mybatis-config.xml` | 配置文件不在 resources 下               | 检查路径，放 `src/main/resources`    |
+| `Invalid bound statement (not found)`        | mapper.xml 没注册，或 namespace/id 写错 | 检查 `<mappers>` 和 namespace     |
+| `Unknown column 'user_name'`                 | 列名对不上                            | 用 AS 别名或开驼峰映射                  |
+| `Communications link failure`                | 连不上数据库                           | 检查 URL/用户名/密码，MySQL 是否启动       |
+| 中文乱码                                         | URL 缺字符编码                        | URL 加 `characterEncoding=utf8` |
 
 ---
 
