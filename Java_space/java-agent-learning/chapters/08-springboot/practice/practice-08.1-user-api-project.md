@@ -727,4 +727,4 @@ public class GlobalExceptionHandler {
 
 ---
 
-*上一节理论：[08.5 进阶配置](../theory/08.5-advanced-profile-and-configuration.md) | 下一章：[09-AI Agent 入门](../../09-introduction-to-ai-agent/theory/)*
+*上一节理论：[08.5 进阶配置](../theory/08.5-advanced-profile-and-configuration.md) | 下一章：[09-Redis（缓存与数据结构）](../../09-redis/theory/09.1-redis-introduction-and-quickstart.md)*
