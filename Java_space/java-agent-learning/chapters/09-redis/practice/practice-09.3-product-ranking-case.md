@@ -226,4 +226,4 @@ public class RankController {
 
 ---
 
-*上一节实操：[09.2 验证码案例](practice-09.2-verification-code-case.md) | 下一步：AI Agent（LLM 智能体）阶段（待规划）*
+*上一节实操：[09.2 验证码案例](practice-09.2-verification-code-case.md) | 下一章：[10-RabbitMQ（消息队列）](../../10-rabbitmq/theory/10.1-mq-core-value.md)*
