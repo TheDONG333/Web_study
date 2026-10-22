@@ -279,4 +279,4 @@ docker rm -f rabbitmq     # 删除容器（数据全没，下次重新 run）
 
 ---
 
-*上一节理论：[10.4 Topic 交换机](../theory/10.4-topic-exchange.md) | 下一步：RabbitMQ Java 集成（Spring AMQP，待规划）*
+*上一节理论：[10.4 Topic 交换机](../theory/10.4-topic-exchange.md) | 下一章：[11-Spring AMQP 整合](../../11-rabbitmq-integration/theory/11.1-spring-amqp-quickstart.md)*
