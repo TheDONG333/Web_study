@@ -357,4 +357,4 @@ docker rm elasticsearch kibana
 
 ---
 
-*上一节理论：[12.4 分页、高亮与了解项](../theory/12.4-pagination-highlight-and-more.md) | 下一步：待规划*
+*上一节理论：[12.4 分页、高亮与了解项](../theory/12.4-pagination-highlight-and-more.md) | 下一章：[13-JavaScript（前端基础）](../../13-javascript/theory/13.1-variables-types-and-basics.md)*
